@@ -3,12 +3,14 @@ import Navbar from './components/Navbar'
 import { Routes,Route } from 'react-router-dom'
 import Home from "../src/pages/Home";
 import About from "./pages/About";
-import TownshipFeatures from "./pages/TownshipFeatures";
-import NewsEvents from "./pages/NewsEvents";
-import ArchitectDesign from "./pages/ArchitectDesign";
+import Services from "./pages/Services";
+import Gallery from "./pages/Gallery";
+import ResidentialUnits from './pages/ResidentialUnits';
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-
+import './App.css';
+import Commercial from './pages/Commercial';
+import Rennovation from './pages/Rennovation';
 function App() {
   return (
     <div>
@@ -17,11 +19,13 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
-      <Route path='/TownshipFeatures' element={<TownshipFeatures/>}/>
-      <Route path='/ArchitectDesign' element={<ArchitectDesign/>}/>
-      <Route path='/NewsEvents' element={<NewsEvents/>}/>
+      <Route path='/Services' element={<Services/>}/>
+      <Route path='/Gallery' element={<Gallery/>}/>
       <Route path='/Contact' element={<Contact/>}/>
-      {/* <Route path='/Check' element={<Check/>}/> */}
+      <Route path='/ResidentialUnits' element={<ResidentialUnits/>}/>
+      <Route path='/Commercial' element={<Commercial/>}/>
+      <Route path='/Rennovation' element={<Rennovation/>}/>
+
       <Route path='*' element={<Error/>}/>
       
 

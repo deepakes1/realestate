@@ -38,9 +38,9 @@ function About() {
             <p className='lg:text-xl lg:w-[80%] lg:mt-4 mx-auto'>Our experienced leadership team is dedicated to driving innovation, fostering a collaborative culture, and ensuring the success of every project we undertake.</p>
           </div>
 
-          <div className="mt-5 flex gap-4 flex-wrap justify-center p-10  ">
+          <div className="mt-5 flex gap-4 flex-wrap transition-all  justify-center p-10  ">
             {/* user1 */}
-            <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
+            <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow transition-all  hover:bg-black hover:text-white hover:rounded-lg  mx-auto">
               <div className="flex justify-center">
                <img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbnxlbnwwfDB8MHx8fDA%3D" className='object-cover h-[100px] w-[100px] rounded-full' alt="" />
               </div>
@@ -50,7 +50,7 @@ function About() {
             </div>
 
             {/* user2 */}
-            <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
+            <div className="text-center bg-slate-100 p-5 w-[350px]  lg:flex-grow transition-all hover:bg-black hover:text-white hover:rounded-lg  mx-auto">
               <div className="flex justify-center">
                <img src="https://images.unsplash.com/photo-1695830042175-af833fd6d982?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYWNlfGVufDB8MHwwfHx8MA%3D%3D" className='object-cover h-[100px] w-[100px] rounded-full' alt="" />
               </div>
@@ -60,7 +60,7 @@ function About() {
             </div>
 
             {/* user3 */}
-            <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
+            <div className="text-center bg-slate-100 p-5 w-[350px]  lg:flex-grow transition-all hover:bg-black hover:text-white hover:rounded-lg mx-auto">
               <div className="flex justify-center">
                <img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbnxlbnwwfDB8MHx8fDA%3D" className='object-cover h-[100px] w-[100px] rounded-full' alt="" />
               </div>
@@ -84,9 +84,9 @@ function About() {
             {/*house1  */}
              <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
                 <div className="flex justify-center">
-                  <img src="https://images.unsplash.com/photo-1577920231835-c232d76c4662?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZSUyMG91dHNpZGV8ZW58MHwwfDB8fHwy" className=' h-[150px] w-[170px] object-cover ' alt="" />
+                  <img src="https://images.unsplash.com/photo-1577920231835-c232d76c4662?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZSUyMG91dHNpZGV8ZW58MHwwfDB8fHwy" className=' h-[150px] w-[170px] lg:w-[80%] object-cover transition-all hover:scale-110' alt="" />
                 </div>
-                <h1 className='mt-3 text-lg'>123 Main St</h1>
+                <h1 className='mt-3 text-lg font-semibold'>123 Main St</h1>
                 <p>4 Beds, 3 Baths | 2,500 sq ft</p>
                 <p>Sold for $750,000.</p>
               </div>
@@ -94,17 +94,17 @@ function About() {
             {/* house2 */}
             <div className="text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
               <div className="flex justify-center">
-               <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvbWUlMjBvdXRzaWRlfGVufDB8MHwwfHx8Mg%3D%3D" className=' h-[150px] w-[170px] lg:w-[80%] object-cover ' alt="" />
+               <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvbWUlMjBvdXRzaWRlfGVufDB8MHwwfHx8Mg%3D%3D" className=' h-[150px] w-[170px] lg:w-[80%] object-cover transition-all hover:scale-110' alt="" />
               </div>
-               <h1 className='mt-3 text-lg'>123 Main St</h1>
+               <h1 className='mt-3 text-lg font-semibold'>123 Main St</h1>
               <p>4 Beds, 3 Baths | 2,500 sq ft</p>
               <p>Sold for $750,000.</p>
               </div>
 
             {/* house3 */}
             <div className="hidden md:block text-center bg-slate-100 p-5 w-[350px] lg:flex-grow  mx-auto">
-              <div className="flex justify-center">
-               <img src="https://images.unsplash.com/photo-1610429576656-0f0278e98a2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGhvbWUlMjBvdXRzaWRlfGVufDB8MHwwfHx8Mg%3D%3D" className=' h-[150px] w-[170px] lg:w-[80%] object-cover ' alt="" />
+              <div className="flex justify-center font-semibold">
+               <img src="https://images.unsplash.com/photo-1610429576656-0f0278e98a2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGhvbWUlMjBvdXRzaWRlfGVufDB8MHwwfHx8Mg%3D%3D" className=' h-[150px] w-[170px] lg:w-[80%] object-cover transition-all hover:scale-110' alt="" />
               </div>
               <h1 className='mt-3 text-lg'>123 Main St</h1>
               <p>4 Beds, 3 Baths | 2,500 sq ft</p>
@@ -116,7 +116,7 @@ function About() {
 
         {/* contact us */}
           <div className="bg-slate-200">
-            <div className="text-center mt-10 p-5 lg:h-[300px] lg:flex lg:flex-col lg:justify-center">
+            <div className="text-center mt-4 lg:mt-10 p-5 lg:h-[300px] lg:flex lg:flex-col lg:justify-center">
               <h1 className='font-semibold text-2xl lg:text-4xl mb-2'>Ready to Find Your Dream Home?</h1>
               <p className='lg:text-xl lg:w-[80%] lg:mt-4 mx-auto'>Contact our team of real estate experts today to get started on your home buying journey.</p>
               <div className="mt-10">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Check() {
+function Download() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Check() {
   )
 }
 
-export default Check
+export default Download
