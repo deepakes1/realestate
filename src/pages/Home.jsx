@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import homeimg1 from "../assets/home.gif"
 import homeimg2 from "../assets/repair-tools.gif"
 import homeimg3 from "../assets/building.gif"
+import downloadFile from "../assets/downloadFile.pdf";
 
 
 function Home() {
@@ -153,7 +154,7 @@ function Home() {
        <p className='text-lg mt-2'>Fill the below form to register</p>
        <div className="mt-5 flex gap-3">
           <a href='https://forms.gle/sY55SKJFzhSxkymE9' className='bg-black text-white px-2 py-2 '>Register Online</a>
-          <a  className="bg-black text-white px-2 py-2" href="../assets/downloadFile.pdf" download ="downloadFile.pdf" >
+          <a  className="bg-black text-white px-2 py-2" href="{downloadFile}" download ="downloadFile.pdf" >
             Offline Form
           </a>
        </div>
