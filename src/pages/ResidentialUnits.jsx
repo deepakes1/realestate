@@ -4,7 +4,7 @@ import furniture from '../assets/furniture.png'
 function ResidentialUnits() {
   return (
     <div>
-      <h1 className='text-2xl font-semibold text-center mt-5'>One to five bedrooms residential units</h1>
+      <h1 className='text-2xl font-semibold text-center mt-5 p-4'>One to five bedrooms residential units</h1>
 
         <div className="flex flex-wrap justify-center gap-4 mt-10">
             <div className="p-5 bg-slate-200 w-[350px]">

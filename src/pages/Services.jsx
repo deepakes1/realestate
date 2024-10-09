@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Services() {
   return (
@@ -15,65 +16,79 @@ function Services() {
 
           <div className="flex flex-wrap justify-center gap-4">
             {/* clubs */}
-            <div className="bg-clubs flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>Clubs</h1>
-            </div>
+            <Link to = "/Club">
+              <div className="bg-clubs flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>Clubs</h1>
+              </div>
+            </Link>
+
+            {/* hotels */}
+            <Link to= "/Hotel">
+              <div className="bg-hotel flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>Hotels</h1>
+              </div>
+            </Link>
 
 
             {/* community center */}
-            <div className="bg-community flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-lg text-center md:text-2xl text-white   p-2 inline-block font-black brightness-300 textblackline'>community center</h1>
-            </div>
+            <Link to = "/Community">
+              <div className="bg-community flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-lg text-center md:text-2xl text-white   p-2 inline-block font-black brightness-300 textblackline'>community center</h1>
+              </div>
+            </Link>
 
             {/* hospital  */}
-            <div className="bg-hospital flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline '>Hospital</h1>
-            </div>
+            <Link to = "/Hospital">
+              <div className="bg-hospital flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline '>Hospital</h1>
+              </div>
+            </Link>
 
             {/* shopping */}
-            <div className="bg-shopping flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Shopping mall</h1>
-            </div>
+            <Link to = "/Mall">
+              <div className="bg-shopping flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Shopping mall</h1>
+              </div>
+            </Link>
 
             {/* theter */}
-            <div className="bg-thetre flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>multiplex theatre</h1>
-            </div>
+            <Link to= "/Multiplex">
+              <div className="bg-thetre flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>multiplex theatre</h1>
+              </div>
+            </Link>
 
             {/* school center */}
-            <div className="bg-school flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>School</h1>
-            </div>
+            <Link to = "/Education">
+              <div className="bg-school flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Education</h1>
+              </div>
+            </Link>
 
             {/*  power supply */}
-            <div className="bg-power flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-center text-lg  md:text-2xl  p-2 inline-block font-black brightness-300'>Uninterrupted Power Supply</h1>
-            </div>
+            <Link to= "/Power">
+              <div className="bg-power flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-center text-lg  md:text-2xl  p-2 inline-block font-black brightness-300'>Uninterrupted Power Supply</h1>
+              </div>
+            </Link>
 
             {/* water supply */}
-            <div className="bg-water flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Water Supply</h1>
-            </div>
+            <Link to= "/Water">
+              <div className="bg-water flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Water Supply</h1>
+              </div>
+            </Link>
 
             {/* security */}
-            <div className="bg-security flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>security</h1>
-            </div>
+            <Link to= "/Security">
+              <div className="bg-security flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
+                <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>security</h1>
+              </div>
+            </Link>
 
-            {/* home */}
-            <div className="bg-home flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Home</h1>
-            </div>
+            
 
-            {/* transport */}
-            <div className="bg-transport flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Transport</h1>
-            </div>
-
-            {/* park */}
-            <div className="bg-park flex justify-center items-center w-[50vw] md:w-[40vw] lg:w-[20vw] transition-all hover:scale-105">
-              <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Park</h1>
-            </div>
+            
 
           </div>
 

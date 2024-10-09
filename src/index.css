@@ -71,7 +71,14 @@
 }
 
 .bg-shopping {
-    background-image: url("https://images.pexels.com/photos/2861655/pexels-photo-2861655.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-image: url("https://images.pexels.com/photos/3052848/pexels-photo-3052848.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 30vh;
+    background-size: cover;
+    opacity: .8;
+}
+
+.bg-hotel {
+    background-image: url("https://images.pexels.com/photos/453201/pexels-photo-453201.jpeg?auto=compress&cs=tinysrgb&w=600");
     height: 30vh;
     background-size: cover;
     opacity: .8;
@@ -113,26 +120,8 @@
     opacity: .8;
 }
 
-.bg-home {
-    background-image: url("https://images.pexels.com/photos/731082/pexels-photo-731082.jpeg?auto=compress&cs=tinysrgb&w=600");
-    height: 30vh;
-    background-size: cover;
-    opacity: .8;
-}
 
-.bg-transport {
-    background-image: url("https://images.pexels.com/photos/23024120/pexels-photo-23024120/free-photo-of-yokohama-city-bus.jpeg?auto=compress&cs=tinysrgb&w=600");
-    height: 30vh;
-    background-size: cover;
-    opacity: .8;
-}
 
-.bg-park {
-    background-image: url("https://images.pexels.com/photos/983988/pexels-photo-983988.jpeg?auto=compress&cs=tinysrgb&w=600");
-    height: 30vh;
-    background-size: cover;
-    opacity: .8;
-}
 
 
 
