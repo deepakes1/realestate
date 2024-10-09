@@ -86,17 +86,7 @@ function Services() {
               </div>
             </Link>
 
-            
-
-            
-
           </div>
-
-          
-
-          
-          
-        
         
       </div>
     </div>
