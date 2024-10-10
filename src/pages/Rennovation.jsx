@@ -2,7 +2,6 @@ import React from 'react'
 import taxi from '../assets/taxi.gif'
 import tap from '../assets/tap.gif'
 import bricks from '../assets/bricks.gif' 
-import makeup from '../assets/makeup.gif'
 import electrical from '../assets/electrical.gif'
 
 function Rennovation() {
@@ -30,10 +29,6 @@ function Rennovation() {
         <li><div className="flex gap-2 items-center">
             <h1>Masonary</h1> 
             <img src={bricks} className='h-8 w-8' alt="" />
-        </div></li>
-        <li><div className="flex gap-2 items-center">
-            <h1>Beauty Parlour</h1> 
-            <img src={makeup} className='h-8 w-8' alt="" />
         </div></li>
         <li><div className="flex gap-2 items-center">
             <h1>Electrical repair services</h1> 

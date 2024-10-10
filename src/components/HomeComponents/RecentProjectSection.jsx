@@ -27,7 +27,7 @@ function RecentProjectSection() {
                 <img src="https://images.pexels.com/photos/932328/pexels-photo-932328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='object-cover h-[40vh] w-full' alt="" />
                 </div>
                 <div className="">
-                <p className='text-xl font-semibold mt-3 mb-2'>Luxuary Apartment Complex</p>
+                <p className='text-xl font-semibold mt-3 mb-2'>Luxury Apartment Complex</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, nisi?</p>
                 </div>
             </div>

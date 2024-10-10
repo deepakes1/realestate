@@ -43,15 +43,15 @@ const MyCarousel = () => {
         stopOnHover={true}
       >
         <div>
-          <img src={Carousel1} alt="Furniture" className='h-[50vh] md:h-[70vh] w-full object-fit' />
+          <img src={Carousel1} alt="Furniture" className='h-[50vh] md:h-[70vh] w-full object-cover' />
           
         </div>
         <div>
-          <img src={Carousel2} alt="Layout" className='h-[50vh]  md:h-[70vh] w-full object-fit' />
+          <img src={Carousel2} alt="Layout" className='h-[50vh]  md:h-[70vh] w-full object-cover' />
           
         </div>
         <div>
-          <img src={Carousel3} alt="Globe" className='h-[50vh]  md:h-[70vh] w-full object-fit' />
+          <img src={Carousel3} alt="Globe" className='h-[50vh]  md:h-[70vh] w-full object-cover' />
         </div>
       </ResponsiveCarousel>
     </ErrorBoundary>
