@@ -3,6 +3,7 @@ import model1 from '../../assets/model1.png'
 import model2 from '../../assets/model2.png'
 import great from '../../assets/great.png'
 import great2 from '../../assets/great2.png'
+import crown1 from '../../assets/crown1.png'
 function ProjectSection() {
   return (
     <>
@@ -22,7 +23,9 @@ function ProjectSection() {
     <div className="mt-5">
       {/* Great */}
       <h1  className="font-semibold text-center text-2xl lg:text-4xl mb-4">PLANS</h1>
-      <h1  className="font-semibold text-center lg:text-3xl mb-4">Great</h1>
+      <h1  className="font-semibold text-center lg:text-3xl mb-4">1. Great</h1>
+      <h1 className='text-xl text-center mb-4 font-semibold'>Type A (Stilt Plus 9 Floors with 2 lifts) 1 Bedroom Units.</h1>
+
 
       {/* table */}
       <table className="border-2 border-black border-collapse text-center p-5 md:w-[70vw] mx-auto">
@@ -50,13 +53,59 @@ function ProjectSection() {
       <div className="">
         <h1 className='lg:text-2xl font-semibold text-xl text-center mt-5'>Typical Block Plan* (1st to 9th Floor).</h1>
         <h1 className='lg:text-2xl font-semibold text-xl text-center mt-2'>Unit Nos. are marked on the floor plan.</h1>
-        <img src={great} className='w-[50vw] object-cover mx-auto mt-5' alt="" />
+        <img src={great} className='lg:w-[50vw] object-cover mx-auto mt-5' alt="" />
       </div>
 
       <div className="">
         <h1 className='lg:text-2xl font-semibold text-xl text-center mt-5'>Typical Floor Unit.</h1>
         <h1 className='lg:text-2xl font-semibold text-xl text-center mt-2'>Plan for Units 3,4,7,8</h1>
-        <img src={great2} className='w-[50vw] object-cover mx-auto mt-5' alt="" />
+        <img src={great2} className='lg:w-[50vw] object-cover mx-auto mt-5' alt="" />
+      </div>
+
+
+      {/* Crown */}
+      <h1  className="font-semibold text-center lg:text-3xl mb-4 mt-6">2. Crown</h1>
+      <p className='text-xl text-center mb-4 font-semibold'>Type B (Stilt plus 9 Floors with 3 lifts) 2 Bedroom + Terrace, 2 Bedroom, Penthouse Units</p>
+      
+      {/* table */}
+      <table className="border-2 border-black border-collapse text-center p-5 md:w-[70vw] mx-auto">
+      <thead>
+        <tr>
+          <th className="border-2 border-black p-2">S.No.</th>
+          <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
+          <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
+          <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
+          <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
+          <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
+          <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="border-2 border-black p-2">1</td>
+          <td className="border-2 border-black p-2">FIRST FLOOR PLAN (2 B/R+ TERRACE)</td>
+          <td className="border-2 border-black p-2">885.01</td>
+          <td className="border-2 border-black p-2">82.25</td>
+          <td className="border-2 border-black p-2">296.74</td>
+          <td className="border-2 border-black p-2">27.58</td>
+          <td className="border-2 border-black p-2">1,5,6</td>
+        </tr>
+        <tr>
+          <td className="border-2 border-black p-2">2</td>
+          <td className="border-2 border-black p-2">FIRST FLOOR PLAN (2 B/R)</td>
+          <td className="border-2 border-black p-2">927.01</td>
+          <td className="border-2 border-black p-2">86.15</td>
+          <td className="border-2 border-black p-2">-</td>
+          <td className="border-2 border-black p-2">-</td>
+          <td className="border-2 border-black p-2">2,3,4</td>
+        </tr>
+      </tbody>
+      </table>
+
+      <div className="">
+        <h1 className='lg:text-2xl font-semibold text-xl text-center mt-5'>First Floor Unit.</h1>
+        <h1 className='lg:text-2xl font-semibold text-xl text-center mt-2'>Plan for Units 1,5</h1>
+        <img src={crown1} className='lg:w-[50vw] object-cover mx-auto mt-5' alt="" />
       </div>
 
     </div>
