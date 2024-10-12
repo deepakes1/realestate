@@ -8,7 +8,7 @@ function Flat() {
       
       <div className="flex mt-8 justify-center gap-5 flex-wrap">
         <Link to = "/Great"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl">Great</div></Link>
-        <Link to= "/Crown"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl">Crown</div></Link>
+        <Link to= "/Great"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl">Crown</div></Link>
         <div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl">Gorgeous</div>
         <div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl">Zenith</div>
       </div>
