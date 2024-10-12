@@ -22,6 +22,9 @@ import Club from './components/ServiceSection/Club';
 import Community from './components/ServiceSection/Community';
 import Water from './components/ServiceSection/Water';
 import Power from './components/ServiceSection/Power';
+import Plans from './pages/Plans';
+import Flat from './components/plans/Flat';
+import Great from './components/plans/Great';
 
 function App() {
   return (
@@ -33,6 +36,7 @@ function App() {
       <Route path='/About' element={<About/>}/>
       <Route path='/Services' element={<Services/>}/>
       <Route path='/Layout' element={<Layout/>}/>
+      <Route path='/Plans' element= {<Plans/>} />
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/ResidentialUnits' element={<ResidentialUnits/>}/>
       <Route path='/Commercial' element={<Commercial/>}/>
@@ -48,10 +52,10 @@ function App() {
       <Route path='/Community' element={<Community/>}/>
       <Route path='/Water' element={<Water/>}/>
       <Route path='/Power' element={<Power/>}/>
+      <Route path='/Flats' element={<Flat/>}/>
+      <Route path='/Great' element={<Great/>}/>
+
       <Route path='*' element={<Error/>}/>
-      
-
-
     </Routes>
 
     </div>
