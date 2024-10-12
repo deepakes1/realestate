@@ -25,6 +25,7 @@ import Power from './components/ServiceSection/Power';
 import Plans from './pages/Plans';
 import Flat from './components/plans/Flat';
 import Great from './components/plans/Great';
+import Crown from './components/plans/Crown';
 
 function App() {
   return (
@@ -54,6 +55,8 @@ function App() {
       <Route path='/Power' element={<Power/>}/>
       <Route path='/Flats' element={<Flat/>}/>
       <Route path='/Great' element={<Great/>}/>
+      <Route path='/Crown' element={<Crown/>}/>
+
 
       <Route path='*' element={<Error/>}/>
     </Routes>
