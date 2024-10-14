@@ -59,8 +59,9 @@ body {
     background-image: url("https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&w=600");
     height: 30vh;
     background-size: cover;
-    
+    opacity: .8;
 }
+
 
 .bg-community {
     background-image: url("https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
