@@ -22,7 +22,14 @@ function DownloadTab() {
                 <h1 className='text-lg'>Fill out our online form to register. Please click the link below to access the form, and we'll get back to you soon!</h1>            
                 <div className="flex gap-5 mt-5 items-center">
                     <img src={downloadicon} className = "h-[50px] w-[50px]" alt="" />
-                    <a href='../downloadFile.pdf' download={"downloadFile.pdf"} className='text-blue-400 underline'>Offline Download</a>
+                   <a
+                        className="text-blue-400 underline px-2 py-2"
+                        href="https://drive.google.com/file/d/16hwH-uq3wKoOz-xJ0hbdRw335ftmneMz/view?usp=drivesdk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Offline Link
+                    </a>
                 </div>
 
             </div>
