@@ -26,6 +26,12 @@ import Plans from './pages/Plans';
 import Flat from './components/plans/Flat';
 import Great from './components/plans/Great';
 import Crown from './components/plans/Crown';
+import Gorgeous from './components/plans/Gorgeous';
+import Zenith from './components/plans/Zenith';
+import Villas from './components/plans/Villas';
+import Grandeur from './components/plans/Grandeur';
+import Exotic from './components/plans/Exotic';
+import Meridian from './components/plans/Meridian';
 
 function App() {
   return (
@@ -56,8 +62,12 @@ function App() {
       <Route path='/Flats' element={<Flat/>}/>
       <Route path='/Great' element={<Great/>}/>
       <Route path='/Crown' element={<Crown/>}/>
-
-
+      <Route path='/Gorgeous' element={<Gorgeous/>}/>
+      <Route path='/Zenith' element={<Zenith/>}/>
+      <Route path='/Villas' element={<Villas/>}/>
+      <Route path='/Exotic' element={<Exotic/>}/>
+      <Route path='/Meridian' element={<Meridian/>}/>
+      <Route path='/Grandeur' element={<Grandeur/>}/>
       <Route path='*' element={<Error/>}/>
     </Routes>
 

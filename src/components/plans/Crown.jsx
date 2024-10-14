@@ -15,7 +15,7 @@ function Crown() {
     <div>
 
 
-      {/* great plan1 heading */}
+      {/* crown plan1 heading */}
         <div className="">
             <h1  className="font-semibold text-center lg:text-3xl text-xl mb-4 mt-6">2. Crown</h1>
             <p className='text-xl text-center mb-4 font-semibold'>Type B (Stilt plus 9 Floors with 3 lifts) 2 Bedroom + Terrace, 2 Bedroom, Penthouse Units</p>

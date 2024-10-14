@@ -8,7 +8,7 @@ function FooterHomeSection() {
        <p className='text-lg mt-2'>Fill the below form to register</p>
        <div className="mt-5 flex gap-3">
           <a href='https://forms.gle/sY55SKJFzhSxkymE9' className='bg-black text-white px-2 py-2 '>Register Online</a>
-          <a  className="bg-black text-white px-2 py-2" href="../assets/downloadFile.pdf" download ="downloadFile.pdf" >
+          <a  className="bg-black text-white px-2 py-2" href="../assets/git.docx" download >
             Offline Form
           </a>
        </div>
