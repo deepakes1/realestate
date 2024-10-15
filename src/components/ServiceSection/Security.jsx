@@ -1,12 +1,15 @@
 import React from 'react'
-import camera from '../../assets/camera.gif'
+
 
 function Security() {
   return (
-    <div className='p-5'>
+
+    <div class="background-security">
+        <div class="overlay"></div>
+        <div class="content">
+            <div className='p-5'>
         <div className="flex gap-2 items-center">
             <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Multi-Level Security</h1>
-            <img src={camera} className='w-10 h-10  object-cover' alt="camera" />
         </div>
         <ul style={{ listStyleType: 'disc' }} className='p-5 text-md lg:text-xl'>
             <li className='font-semibold mt-1'>Total security to ensure a relaxed, stress free and safe environment</li>
@@ -21,6 +24,11 @@ function Security() {
             <li className='mt-1'>Though it is not really required in most of the cities, yet two special patrolling vehicles along with armed guards shall be deployed between township & city to ensure security of the residents while commuting.</li>
         </ul>
     </div>
+        </div>
+    </div>
+
+    
+    
   )
 }
 

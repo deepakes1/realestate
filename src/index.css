@@ -12,7 +12,7 @@
 }
 
 body {
-    @apply font-Karla; /* This applies the Cinzel font */
+    @apply font-Karla; 
     
 }
 
@@ -141,10 +141,69 @@ body {
     opacity: .8;
 }
 
+.background {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover;
+    background-position: center;
+}
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+}
 
+.content {
+    position: relative; 
+    color: white; 
+    padding: 40px;
+    
+    border-radius: 10px; 
+    
+}
+.background-security {
+  position: relative;
+  height: 89vh;
+  background-image: url('https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=600'); 
+  background-size: cover;
+  background-position: center;
+}
 
+.background-education {
+  position: relative;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/empty-classroom-due-coronavirus-pandemic_637285-8845.jpg?ga=GA1.1.681971303.1728293352&semt=ais_hybrid-rr-similar'); 
+  background-size: cover;
+  background-position: center;
+}
 
+.background-power {
+  position: relative;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/shot-electric-tower-sunset_181624-29991.jpg?ga=GA1.1.681971303.1728293352&semt=ais_hybrid-rr-similar'); 
+  background-size: cover;
+  background-position: center;
+}
 
+.background-multiplex {
+  position: relative;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-vector/movie-theater-hall-with-seat-rows-audience-cinema-projector_107791-4935.jpg?ga=GA1.1.681971303.1728293352&semt=ais_hybrid-rr-similar'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.background-mall {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://media.gettyimages.com/id/1369252153/photo/exterior-of-clothing-store-with-womens-and-mens-clothing-on-mannequins-displaying-in-showcase.jpg?s=612x612&w=0&k=20&c=wm_sF_FZTrH9upIPOOKvQgjgVCeLyGSSR184ZyZXYH4='); 
+  background-size: cover;
+  background-position: center;
+}
 
 
