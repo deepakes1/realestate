@@ -1,7 +1,6 @@
 import React from 'react'
 import homeimg1 from "../../assets/home.gif"
 import homeimg2 from "../../assets/repair-tools.gif"
-import homeimg3 from "../../assets/building.gif"
 import { Link } from 'react-router-dom'
 
 function ServicesHomeSection() {
@@ -15,33 +14,23 @@ function ServicesHomeSection() {
 
           <div className="flex gap-4 flex-wrap justify-center p-5  ">
             {/* service1 */}
-            <Link to="/ResidentialUnits">
+            <Link to="/Plans">
              <div className="text-center  bg-white p-5 w-[350px] lg:flex-grow transition-all hover:rounded-lg hover:scale-105 mx-auto">
               <div>
               <div className="flex justify-center">
                 <img src={homeimg1} className='object-cover h-[90px] w-[90px] rounded-full transition-all hover:scale-105' alt="" />
               </div>
                 <p className='text-xl font-semibold mb-2'>Residential Units</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, nisi?</p>
+                <p>Discover your dream home in our modern residential units, designed for comfort and convenience.</p>
               </div>
             </div>
             </Link>
             
 
-            {/* service2 */}
-             <Link to="/Commercial">
-              <div className="text-center  bg-white p-5 w-[350px] lg:flex-grow transition-all hover:rounded-lg hover:scale-105 mx-auto">
-                <div>
-                <div className="flex justify-center">
-                  <img src={homeimg3} className='object-cover h-[90px] w-[90px] rounded-full transition-all hover:scale-105' alt="" />
-                </div>
-                  <p className='text-xl font-semibold mb-2'>Commercial Constructions</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, nisi?</p>
-                </div>
-              </div>
-             </Link>
+            
+             
 
-            {/* service3 */}
+            {/* service2 */}
              <Link to="/Rennovation">
               <div className="text-center bg-white p-5 w-[350px] lg:flex-grow transition-all hover:rounded-lg hover:scale-105  mx-auto">
                 <div>
@@ -49,7 +38,7 @@ function ServicesHomeSection() {
                   <img src={homeimg2} className='object-cover h-[80px] w-[80px] rounded-full transition-all hover:scale-105' alt="" />
                 </div>
                   <p className='text-xl font-semibold mb-2'>Rennovation & Remodelling</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, nisi?</p>
+                  <p>Revitalize your home with our customized renovation and remodeling solutions, bringing your vision to life.</p>
                 </div>
               </div>
              </Link>

@@ -5,11 +5,9 @@ import Home from "../src/pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Layout from "./pages/Layout";
-import ResidentialUnits from './pages/ResidentialUnits';
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import './App.css';
-import Commercial from './pages/Commercial';
 import Rennovation from './pages/Rennovation';
 import DownloadTab from "./pages/DownloadTab";
 import Security from './components/ServiceSection/Security';
@@ -47,8 +45,6 @@ function App() {
       <Route path='/Layout' element={<Layout/>}/>
       <Route path='/Plans' element= {<Plans/>} />
       <Route path='/Contact' element={<Contact/>}/>
-      <Route path='/ResidentialUnits' element={<ResidentialUnits/>}/>
-      <Route path='/Commercial' element={<Commercial/>}/>
       <Route path='/Rennovation' element={<Rennovation/>}/>
       <Route path='/DownloadTab' element={<DownloadTab/>}/>
       <Route path='/Security' element={<Security/>}/>

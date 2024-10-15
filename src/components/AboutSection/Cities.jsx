@@ -8,8 +8,8 @@ const StateData = () => {
     { name: 'Madhya Pradesh', cities: 16 },
     { name: 'Bihar', cities: 19 },
     { name: 'Maharashtra', cities: 17 },
-    { name: 'Chandigarh', cities: 0 },
-    { name: 'Chhattisgarh', cities: 1 },
+    { name: 'Chandigarh', cities: 1 },
+    { name: 'Chhattisgarh', cities: 4 },
     { name: 'Orissa', cities: 4 },
     { name: 'Pondicherry', cities: 1 },
     { name: 'Goa', cities: 1 },
@@ -19,21 +19,21 @@ const StateData = () => {
     { name: 'Haryana', cities: 14 },
     { name: 'Tamil Nadu', cities: 10 },
     { name: 'Himachal Pradesh', cities: 1 },
-    { name: 'Uttaranchal', cities: 0 },
+    { name: 'Uttaranchal', cities: 6 },
     { name: 'Jammu & Kashmir', cities: 1 },
-    { name: 'Uttar Pradesh', cities: 0 },
-    { name: 'Jharkhand', cities: 0 },
-    { name: 'Karnataka', cities: 6 },
-    { name: 'West Bengal', cities: 12 },
+    { name: 'Uttar Pradesh', cities: 50 },
+    { name: 'Jharkhand', cities: 6 },
+    { name: 'Karnataka', cities: 12 },
+    { name: 'West Bengal', cities: 6 },
   ];
 
   return (
     <div className='border border-t-2 p-5'>
-      <h1 className='text-4xl font-semibold text-center mb-6'>State Data</h1>
+      <h1 className='text-2xl italic font-semibold text-center mb-6'>State Data</h1>
       <table style={{ border: '1px solid black' }} className="w-[90vw] md:w-[70vw] mx-auto text-center">
         <thead style={{ border: '1px solid black' }}>
-          <tr >
-            <th>State</th>
+          <tr className="text-lg" >
+            <th >State</th>
             <th>No. of Cities</th>
           </tr>
         </thead>

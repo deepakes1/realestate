@@ -7,9 +7,9 @@ function Contact() {
     <div className=' p-5'>
 
     <div className="mt-2 flex justify-end">
-          <a href='https://forms.gle/sY55SKJFzhSxkymE9' className='text-blue-400 px-2 py-2 '>Register Online</a>
+          <a href='https://forms.gle/sY55SKJFzhSxkymE9' className='text-blue-400 px-2 py-2 text-lg underline'>Register Online</a>
           <a
-            className="text-blue-400 px-2 py-2"
+            className="text-blue-400 px-2 py-2 text-lg underline"
             href="https://drive.google.com/file/d/16hwH-uq3wKoOz-xJ0hbdRw335ftmneMz/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"

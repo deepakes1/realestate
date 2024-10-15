@@ -5,7 +5,7 @@ function TopSection() {
     <div>
        <div className="md:flex gap-5">
             <div className="md:flex flex-col justify-center p-6">
-                <h1 className='font-semibold text-2xl lg:text-4xl mb-2'>Sahara Housing</h1>
+                <h1 className='font-semibold text-3xl lg:text-4xl mb-2'>Sahara Housing</h1>
                 <p className='lg:text-xl'>Sahara real estate business launches its flagship brand of township- Sahara City Homes in Coimbatore.Our mission is to transform communities by constructing sustainable, functional, and visually stunning structures that exceed our clients' expectations.</p>
             </div>
 
