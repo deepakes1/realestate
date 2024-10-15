@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Karla: ['Karla', 'serif'], // Add your font here
+        Karla: ['Karla', 'serif'], 
       },
     },
   },

@@ -19,55 +19,55 @@ function Contact() {
        </div>
 
     <h1 className='text-3xl text-center font-black mb-5 mt-3 '> Core Commitments - Our Strength</h1>
-     <div className="flex justify-center w-[90vw] mx-auto p-5   gap-5 flex-wrap bg-slate-600 text-white">
-          <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>EMOTION</h1>
+     <div className="flex justify-center w-[90vw] mx-auto p-5   gap-5 flex-wrap bg-slate-200 text-black">
+          <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Emotion</h1>
           <p className='text-center text-lg mt-3'>Emotion is in performance of genuine duties towards the loved ones primarily in the benefit, rom the point of view. Emotion is the key that generates the required energy and ethusiasm for desired qualtity performance.</p>
         </div>
 
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>SELF-RESPECT</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Self-Respect</h1>
           <p className='text-center text-lg mt-3'>To develop a sense of respect for oneself in others' mind, i.e. to generate genuine & warm feelings for oneself among others on a continuous basis.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>DISCIPLINE</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Discipline</h1>
           <p className='text-center text-lg mt-3'>The enthusiastic obedience of laws and orders, which are given by the rightful authority.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>TRUTH</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Truth</h1>
           <p className='text-center text-lg mt-3'>Means total transparency in action, reaction, attitude and all other expressions and the conviction to follow the right course.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>DUTY</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Duty</h1>
           <p className='text-center text-lg mt-3'>The enthusiastic obedience of laws and orders, which are given by our CONSCIENCE.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>NO DISCRIMINATION </h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>No Discrimination </h1>
           <p className='text-center text-lg mt-3'>Never should we discriminate in any of our actions, reactions, attitudes, decisions, conclusions, in any of our expressions while caring for the six healths of other human beings, namely physical, material, mental, emotional, social and professional healths.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>RELIGION</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Religion</h1>
           <p className='text-center text-lg mt-3'>There is a religion higher than religion itself - it is NATIONALITY. We may practise our religions in the confines of our homes, but outside, we should be Indians and only Indians. 'Bharatiyata' or Nationalism thus becomes our supreme religion.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>QUALITY</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Quality</h1>
           <p className='text-center text-lg mt-3'>Results from honouring Rules, Regulations, Commitments, Values, Fairness, Performance of Duties by honestly balancing one's own and others' reasonable point of view in the matters of Material & Emotional aspects.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>GIVE RESPECT</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Give Respect</h1>
           <p className='text-center text-lg mt-3'>To definitely make others feel important and respected by giving sincere regard to others' feelings, reasonable wishes & thoughts with an open and receptive mind and warmth.</p>
         </div>
 
-        <div className="md:w-[40vw] p-5 border-white border">
-          <h1 className='text-3xl font-semibold text-center'>ABSOLUTE HONESTY</h1>
+        <div className="md:w-[40vw] p-5 border-black border">
+          <h1 className='text-3xl font-semibold text-center'>Absolute Honesty</h1>
           <p className='text-center text-lg mt-3'>People generally manipulate and deceive for achieving their unreasonable desires and greed if others do not or cannot see, hear or understand. But we firmly believe that our mind inside knows the truth and we should be absolutely honest to our mind inside and accordingly our actions, reactions, directions, decisions and all our expressions should be present in all human dealings.</p>
         </div>
       </div>

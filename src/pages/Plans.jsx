@@ -1,8 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import layout from "../assets/layout.jpeg"
 
 function Plans() {
   return (
+    <>
+    <div className="mt-5">
+        <img src={layout} className='h-[80vh] lg:h-[90vh] w-full' alt="" />
+    </div>
+    
     <div className='p-5'>
       <h1 className='text-xl md:text-2xl'>The Plans section is a crucial part of your housing industry, where visitors can explore the different types of living spaces available. To effectively showcase the two types of plans</h1>
         <ul style={{ listStyleType: 'disc' }} className='w-[250px] mx-auto mt-2 md:mt-0  md:p-5 text-lg lg:text-xl'>
@@ -26,6 +32,7 @@ function Plans() {
             </Link>
         </div>
     </div>
+    </>
   )
 }
 

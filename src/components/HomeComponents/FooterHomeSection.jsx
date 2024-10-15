@@ -3,7 +3,7 @@ import React from 'react'
 function FooterHomeSection() {
   return (
     <div>
-      <div className="mt-4 p-5 text-center border-t-2 flex flex-col items-center justify-center h-[50vh]">
+      <div className="mt-4 p-5 text-center border-t-2 flex flex-col items-center justify-center h-[40vh]">
        <h1 className='text-3xl font-semibold'>Ready to start your Next Project</h1>
        <p className='text-lg mt-2'>Fill the below form to register</p>
        <div className="mt-5 flex gap-3">

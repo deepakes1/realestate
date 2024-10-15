@@ -1,14 +1,11 @@
 import React from 'react'
-import layout from "../assets/layout.jpeg"
 
 import ProjectSection from '../components/LayoutSection/ProjectSection';
 
 function Layout() {
   return (
     <div>
-      <div className="mt-10">
-        <img src={layout} className='h-[80vh] lg:h-[90vh] w-full' alt="" />
-      </div>
+      
 
       
       <div className="mt-5 border-t-2 bg-slate-100">
