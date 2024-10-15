@@ -5,7 +5,7 @@ function FactsSectionHome() {
     <div>
         <div className="md:flex relative border-t-2  gap-5">
         <div className="md:flex md:w-[100vw] flex-col justify-center items-center p-6 ">
-            <h1 className='font-semibold text-2xl text-center lg:text-4xl mb-4'>Facts about the company</h1>
+            <h1 className='font-semibold text-3xl lg:text-4xl text-center mb-4'>Facts about the company</h1>
             <div className="flex gap-5 items-center mb-1">
               <p className='lg:text-xl w-1/2 lg:text-center'>Fresh Employment Generation </p>
               <p className='lg:text-xl w-1/2 font-semibold'>65,100 Workers</p>

@@ -5,7 +5,7 @@ function HistorySection() {
     <div>
       <div className="bg-slate-200">
           <div className="text-center mt-10 p-5 lg:h-[400px] lg:flex lg:flex-col lg:justify-center">
-            <h1 className='font-semibold text-2xl lg:text-4xl mb-2'>Our History</h1>
+            <h1 className='font-semibold text-3xl lg:text-4xl mb-2'>Our History</h1>
             <p className='lg:text-xl lg:w-[80%] lg:mt-4 mx-auto'>Sahara City Homes was launched in 2008 with a vision to provide standard community living with a range of facilities and amenities. Since its inception, we have been committed to delivering high-quality residential units, ranging from apartments to independent bungalows, in our 113.33-acre township in Coimbatore. Our dedication to innovation, customer satisfaction, and sustainability has earned us a reputation as a trusted real estate developer in the region.</p>
           </div>
 

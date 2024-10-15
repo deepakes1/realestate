@@ -5,7 +5,7 @@ function LeadershipSection() {
     <div>
       <div className="">
           <div className="text-center mt-10 p-5 lg:h-[300px] lg:flex lg:flex-col lg:justify-center">
-            <h1 className='font-semibold text-2xl lg:text-4xl mb-2'>Our Leadership</h1>
+            <h1 className='font-semibold text-3xl lg:text-4xl mb-2'>Our Leadership</h1>
             <p className='lg:text-xl lg:w-[80%] lg:mt-4 mx-auto'>Our experienced leadership team is dedicated to driving innovation, fostering a collaborative culture, and ensuring the success of every project we undertake.</p>
           </div>
 

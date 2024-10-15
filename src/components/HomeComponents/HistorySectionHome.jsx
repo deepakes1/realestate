@@ -5,7 +5,7 @@ function HistorySectionHome() {
     <div>
         <div className="md:flex flex-row-reverse gap-5 border-t-2 ">
         <div className="md:flex flex-col justify-center p-6">
-            <h1 className='font-semibold text-2xl lg:text-4xl mb-4'>About Our Association</h1>
+            <h1 className='font-semibold text-3xl lg:text-4xl mb-4'>About Our Association</h1>
             <p className='lg:text-xl'>
             Sahara City Homes is a chain of well- planned self-sufficient high quality townships across 217 cities in the
             country. For the first time a dream lifestyle is being offered to all classes of people on such a mammoth scale.
