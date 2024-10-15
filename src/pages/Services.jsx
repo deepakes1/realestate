@@ -122,6 +122,25 @@ function Services() {
               </div>
             </Link>
 
+            <Link to= "/Cricket">
+              <div className="w-full md:w-[400px] p-5 shadow-lg border-2">
+                <div className="bg-cricket flex justify-center items-center transition-all hover:scale-105">
+                <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>Cricket</h1>
+              </div>
+                <h1 className='text-blue-800 mt-2'>A spacious central ground offers diverse opportunities for residents to develop their mind, body, and soul, featuring floodlit areas for day and night activities. Enjoy a wave pool, along with tennis and volleyball courts, all set against a stunning natural backdrop to enhance your experience.</h1>
+             
+              </div>
+            </Link>
+
+            <Link to= "/KidsPlayArea">
+              <div className="w-full md:w-[400px] p-5 shadow-lg border-2">
+                <div className="bg-KidsPlayArea flex justify-center items-center transition-all hover:scale-105">
+                <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>KidsPlayArea</h1>
+              </div>
+                <h1 className='text-blue-800 mt-2'>An exclusive play area dedicated to children specially designed keeping in mind all the fun, frolic and entertainment factors comprising modern play equipments to groom them mentally as well as physically.</h1>
+              </div>
+            </Link>
+
           </div>
         
       </div>

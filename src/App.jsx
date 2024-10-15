@@ -32,6 +32,8 @@ import Villas from './components/plans/Villas';
 import Grandeur from './components/plans/Grandeur';
 import Exotic from './components/plans/Exotic';
 import Meridian from './components/plans/Meridian';
+import Cricket from './components/ServiceSection/Cricket';
+import KidsPlayArea from './components/ServiceSection/KidsPlayArea';
 
 function App() {
   return (
@@ -68,6 +70,9 @@ function App() {
       <Route path='/Exotic' element={<Exotic/>}/>
       <Route path='/Meridian' element={<Meridian/>}/>
       <Route path='/Grandeur' element={<Grandeur/>}/>
+      <Route path='/Cricket' element={<Cricket/>}/>
+      <Route path='/KidsPlayArea' element={<KidsPlayArea/>}/>
+
       <Route path='*' element={<Error/>}/>
     </Routes>
 

@@ -24,7 +24,7 @@ function Hotel() {
             <li className='mt-3'><span className='font-semibold'>Professionally managed expansive parking.</span></li>
             <li className='mt-3'><span className='font-semibold'>100% round-the-clock power supply with complete back-up ensured.</span></li>
         </ul>
-    </div>
+      </div>
     </div>
   )
 }

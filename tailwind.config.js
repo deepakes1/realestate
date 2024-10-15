@@ -7,9 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cinzel: ['Cinzel', 'serif'], // Add your font here
+        Karla: ['Karla', 'serif'], // Add your font here
       },
     },
   },
   plugins: [],
 }
+
