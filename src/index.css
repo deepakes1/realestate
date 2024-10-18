@@ -135,15 +135,15 @@ body {
 }
 
 .bg-KidsPlayArea {
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.4TcAD5pZYAf3PQU_QUelxwHaFj&pid=Api&P=0&h=180");
-    height: 30vh;
-    background-size: cover;
-    opacity: .8;
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.4TcAD5pZYAf3PQU_QUelxwHaFj&pid=Api&P=0&h=180");
+  height: 30vh;
+  background-size: cover;
+  opacity: .8;
 }
 
 .background {
     position: relative;
-    height: 100vh;
+    height: 100%;
     background-image: url('https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
     background-size: cover;
     background-position: center;
@@ -161,14 +161,12 @@ body {
 .content {
     position: relative; 
     color: white; 
-    padding: 40px;
-    
     border-radius: 10px; 
     
 }
 .background-security {
   position: relative;
-  height: 89vh;
+  height: 100%;
   background-image: url('https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=600'); 
   background-size: cover;
   background-position: center;
@@ -200,10 +198,27 @@ body {
 
 .background-mall {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background-image: url('https://media.gettyimages.com/id/1369252153/photo/exterior-of-clothing-store-with-womens-and-mens-clothing-on-mannequins-displaying-in-showcase.jpg?s=612x612&w=0&k=20&c=wm_sF_FZTrH9upIPOOKvQgjgVCeLyGSSR184ZyZXYH4='); 
   background-size: cover;
   background-position: center;
+}
+
+.background-cricket {
+  position: relative;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1663832952954-170d73947ba7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGNyaWNrZXQlMjBncm91bmR8ZW58MHwwfDB8fHww');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.background-hospital {
+  position: relative;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGhvc3BpdGFsfGVufDB8MHwwfHx8MA%3D%3D');
+  background-position: center;
+  background-size: cover;
 }
 
 

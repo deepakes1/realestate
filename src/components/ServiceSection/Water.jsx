@@ -4,7 +4,7 @@ import water from '../../assets/water.gif'
 function Water() {
   return (
     <div>
-      <div>
+      <div className='md:h-[89vh]'>
 
       <div class="background">
             <div class="overlay"></div> 

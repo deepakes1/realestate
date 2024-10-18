@@ -1,13 +1,11 @@
 import React from 'react'
-import community from "../../assets/community.gif";
-import yoga from "../../assets/yoga.gif";
+
 function Community() {
   return (
     <div>
       <div className='p-5'>
         <div className="flex gap-2 items-center">
             <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Community Center</h1>
-            <img src={community} className='w-10 h-10  object-cover' alt="camera" />
         </div>
         <div className=" text-md lg:text-xl">
             <p className='mt-2'>Two well-equipped clubs and a community centre within the township having the facilities of indoor and outdoor games, swimming pool and a well equipped fitness centre for aerobics, gymnasium, sauna and jacuzzi.</p>
@@ -25,7 +23,6 @@ function Community() {
         
         <div className="flex gap-2 items-center">
           <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Yoga</h1>
-          <img src={yoga} className='w-10 h-10  object-cover' alt="camera" />
 
         </div>
         <p className='text-md lg:text-xl mt-2'>World renowned Yoga guru Mr. Bikram Chaudhary will set-up yoga centres in all <b> 217 townships</b>  to offer the best advice and training on yoga for the first time in India. He has over 2000 institutions around the globe which are even acknowledged by NASA (National Aeronautics and Space Administration)</p>

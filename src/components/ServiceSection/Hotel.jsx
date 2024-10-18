@@ -1,5 +1,5 @@
 import React from 'react'
-import hotel from '../../assets/hotel.gif'
+
 
 function Hotel() {
   return (
@@ -7,7 +7,6 @@ function Hotel() {
       <div className='p-5'>
         <div className="flex gap-2 items-center">
             <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Hotel</h1>
-            <img src={hotel} className='w-10 h-10  object-cover' alt="camera" />
         </div>
         <div className=" text-md lg:text-xl">
             <p className='mt-2'>A grand & exclusive hotel having 100-300 rooms built on the latest architectural concepts consisting of premium features & facilities. It shall be an integral part of every Sahara City Homes Township. It has been located in such a manner that the non-residents who are using these facilities do not enter the residential areas thus ensuring complete privacy and solitude to the residents.</p>

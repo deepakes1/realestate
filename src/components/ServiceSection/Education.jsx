@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education() {
   return (
-    <div className='over-flow-hidden'>
+    <div className=''>
 
       <div class="background-education">
         <div class="overlay"></div>

@@ -1,13 +1,16 @@
 import React from 'react'
-import medicine from '../../assets/medicine.gif'
+
 
 function Hospital() {
   return (
-    <div>
+
+      <div class="background-hospital">
+            <div class="overlay"></div>
+                <div class="content">
+                  <div>
        <div className='p-5'>
         <div className="flex gap-2 items-center">
             <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Sahara Mini Hospital</h1>
-            <img src={medicine} className='w-10 h-10  object-cover' alt="camera" />
         </div>
         <div className=" text-md lg:text-xl">
             <p className='mt-2'>The 25-bed Sahara Mini Hospital comprises a 3-storied building structure with a basement housing the services, facilitated by a strong infrastructure and 100% round-the-clock power supply with complete back-up.</p>
@@ -30,6 +33,11 @@ function Hospital() {
         </ul>
     </div>
     </div>
+                </div>
+                 </div>
+
+
+    
   )
 }
 

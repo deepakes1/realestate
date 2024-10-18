@@ -4,7 +4,8 @@ import React from 'react'
 function Security() {
   return (
 
-    <div class="background-security">
+    <div className="md:h-[89vh]">
+        <div class="background-security">
         <div class="overlay"></div>
         <div class="content">
             <div className='p-5'>
@@ -26,6 +27,9 @@ function Security() {
     </div>
         </div>
     </div>
+    </div>
+
+    
 
     
     

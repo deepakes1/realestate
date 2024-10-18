@@ -1,12 +1,10 @@
 import React from 'react'
-import club from "../../assets/club.gif"
 function Club() {
   return (
     <div>
       <div className='p-5'>
         <div className="flex gap-2 items-center">
             <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Club</h1>
-            <img src={club} className='w-10 h-10  object-cover' alt="camera" />
         </div>
         <div className=" text-md lg:text-xl">
             <p className='mt-2'>Special club in tune with the sophisticated taste of socialites & high profile personalities.</p>
