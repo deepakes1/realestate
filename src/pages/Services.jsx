@@ -20,7 +20,13 @@ function Services() {
                 <div className="bg-clubs flex justify-center items-center  relative transition-all hover:scale-105">    
                   <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>Clubs</h1>  
                 </div>
-                <h1 className='text-blue-800 mt-2'>The club offers a wide range of recreational facilities, including sports courts, a large swimming pool, and a fitness centre. It also features business amenities, a 24-hour coffee shop, and an expansive party lawn for events.</h1>
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Wide range of recreational facilities</li>
+                  <li>Sports courts available</li>
+                  <li>Large swimming pool</li>
+                  <li>Fitness centre</li>
+                  <li>24-hour coffee shop</li>
+                </ul>
 
               </div>
             </Link>
@@ -31,8 +37,13 @@ function Services() {
                 <div className="bg-hotel flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>Hotels</h1>
               </div>
-              <h1 className='text-blue-800 mt-2'>The grand hotel features 100-300 rooms designed with modern architecture and premium facilities. Amenities include a  air-conditioned lobby, a pillar-less banquet hall for over 800 guests, diverse dining options, and expansive parking.</h1>
-
+              <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>100-300 rooms with modern architecture</li>
+                  <li>Premium facilities in each room</li>
+                  <li>Air-conditioned lobby</li>
+                  <li>Pillar-less banquet hall for over 800 guests</li>
+                  <li>Diverse dining options</li>
+                </ul>
               </div>
             </Link>
 
@@ -43,8 +54,13 @@ function Services() {
                 <div className="bg-community flex justify-center items-center  transition-all hover:scale-105">
                 <h1 className='text-lg text-center md:text-2xl text-white   p-2 inline-block font-black brightness-300 textblackline'>community center</h1>
               </div>
-              <h1 className='text-blue-800 mt-2'>The township includes two exclusive clubs and a community centre with indoor and outdoor games, a swimming pool, and a fitness centre. Amenities feature sports facilities, a TV room, a hall for 700, and a nature care centre for wellness services.</h1>
-
+              <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Family-friendly environment</li>
+                  <li>Hall for 700 guests</li>
+                  <li>TV room</li>
+                  <li>Care centre for wellness services</li>
+                  <li>Sports facilities.</li>
+                </ul>
               </div>
             </Link>
 
@@ -54,8 +70,13 @@ function Services() {
                 <div className="bg-hospital flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline '>Hospital</h1>
               </div>
-              <h1 className='text-blue-800 mt-2'>The 25-bed Sahara Mini Hospital offers modern care with 24/7 power, featuring outpatient and emergency services, radiology, maternity care, an operation theatre, and telemedicine for expert consultations with Sahara Hospital.</h1>
-
+              <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>25-bed capacity</li>
+                  <li>Modern healthcare facilities</li>
+                  <li>Outpatient & services available</li>
+                  <li>Operation theatre on-site</li>
+                  <li>24/7 power supply</li>
+                </ul>
               </div>
             </Link>
 
@@ -65,8 +86,13 @@ function Services() {
                 <div className="bg-shopping flex justify-center items-center  transition-all hover:scale-105">
                 <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Shopping mall</h1>
               </div>
-              <h1 className='text-blue-800 mt-2'>This unique shopping mall blends retail and entertainment in a modern space, ensuring residents' privacy. Key features include a hypermarket, kids' play zone, multi-cuisine food courts, outdoor sports facilities, and ample parking, all with 24/7 power backup.</h1>
-
+              <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Unique blend of retail and entertainment</li>
+                  <li>Modern shopping space ensuring privacy</li>
+                  <li>Hypermarket for convenient shopping</li>
+                  <li>Kids' play zone for family fun</li>
+                  <li>Ample parking available</li>
+                </ul>
               </div>
             </Link>
 
@@ -76,7 +102,13 @@ function Services() {
                 <div className="bg-thetre flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300'>multiplex theatre</h1>
               </div>
-              <h1 className='text-blue-800 mt-2'>The 3-screen multiplex offers luxurious seating for over 1,000 in stylish interiors. It features a large playground for outdoor sports, a fast food center, and ample parking, ensuring a great experience.</h1>
+              <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>3-screen multiplex with luxurious seating.</li>
+                  <li>Capacity for over 1,000 viewers</li>
+                  <li>Stylish interiors for an enhanced viewing experience</li>
+                  <li>Focus on providing great experience</li>
+                  
+                </ul>
               </div>
             </Link>
 
@@ -86,8 +118,13 @@ function Services() {
                 <div className="bg-school flex justify-center items-center transition-all hover:scale-105">
                   <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Education</h1>
                 </div>
-                <h1 className='text-blue-800 mt-2'>The education centre will nurture 1,600 students through academics, personality development, and extracurricular activities. Key features include spacious classrooms, expert faculty, a multipurpose assembly hall, sports facilities, and a library, ensuring a well-rounded learning experience.</h1>
-              </div>
+                  <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Capacity to nurture 1,600 students</li>
+                  <li>Spacious classrooms for effective learning</li>
+                  <li>Multipurpose assembly hall for events and gatherings</li>
+                  <li>Well-equipped library for research and study.</li>
+                </ul>
+                </div>
             </Link>
 
             {/*  power supply */}
@@ -96,8 +133,12 @@ function Services() {
                 <div className="bg-power flex justify-center items-center transition-all hover:scale-105">
                   <h1 className='text-white text-center text-lg  md:text-2xl  p-2 inline-block font-black brightness-300'>Uninterrupted Power Supply</h1>
                 </div>
-                <h1 className='text-blue-800 mt-2'>Experience uninterrupted power in your Sahara City home with our reliable UPS systems. Enjoy seamless backup during outages, 24/7 support, and real-time grid monitoring. With regular maintenance and high-capacity generators, your home will stay powered and comfortable.</h1>
-
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Reliable UPS systems for uninterrupted power.</li>
+                  <li>Seamless backup during outages.</li>
+                  <li>Multipurpose assembly hall for events </li>
+                  <li>Well-equipped library for research and study.</li>
+                </ul>
               </div>
             </Link>
 
@@ -107,7 +148,13 @@ function Services() {
                 <div className="bg-water flex justify-center items-center  transition-all hover:scale-105">
                 <h1 className='text-white text-lg text-center md:text-2xl  p-2 inline-block font-black brightness-300 textblackline'>Water Supply</h1>
               </div>
-                <h1 className='text-blue-800 mt-2'>Sahara City Homes provides residents with clean drinking water through a Reverse Osmosis plant, delivering safe water directly to kitchens and helping combat waterborne diseases. The community also features piped cooking gas and eco-friendly waste disposal systems for improved living conditions.</h1>
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Clean drinking water from a Reverse Osmosis plant.</li>
+                  <li>Eco-friendly waste disposal systems</li>
+                  <li>Improved living conditions for residents.</li>
+                  <li>Piped cooking gas for convenience.</li>
+                  <li>Safe water delivered directly to Homes.</li>
+                </ul>  
               </div>
             </Link>
 
@@ -117,8 +164,13 @@ function Services() {
                 <div className="bg-security flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>security</h1>
               </div>
-                <h1 className='text-blue-800 mt-2'>Sahara City Homes provides a secure environment with a centralized control station, 24-hour armed security, and CCTV surveillance. Residents benefit from quick response teams, fire-fighting facilities, and patrolling vehicles with armed guards for added safety.</h1>
-             
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Secure environment with centralized control station</li>
+                  <li>24-hour armed security presence</li>
+                  <li>Fire-fighting facilities on-site.</li>
+                  <li>Comprehensive CCTV surveillance</li>
+                  <li>Quick response teams for emergencies.</li>
+                </ul>  
               </div>
             </Link>
 
@@ -127,8 +179,13 @@ function Services() {
                 <div className="bg-cricket flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>Cricket</h1>
               </div>
-                <h1 className='text-blue-800 mt-2'>A spacious central ground offers diverse opportunities for residents to develop their mind, body, and soul, featuring floodlit areas for day and night activities. Enjoy a wave pool, along with tennis and volleyball courts, all set against a stunning natural backdrop to enhance your experience.</h1>
-             
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Spacious central ground.</li>
+                  <li>Floodlit areas for day and night use</li>
+                  <li>Opportunities for mind, body, and soul development.</li>
+                  <li>Well-maintained pitch</li>
+                  <li>Adequate parking for players.</li>
+                </ul>  
               </div>
             </Link>
 
@@ -137,8 +194,14 @@ function Services() {
                 <div className="bg-KidsPlayArea flex justify-center items-center transition-all hover:scale-105">
                 <h1 className='text-white text-2xl  p-2 inline-block font-black brightness-300'>KidsPlayArea</h1>
               </div>
-                <h1 className='text-blue-800 mt-2'>An exclusive play area dedicated to children specially designed keeping in mind all the fun, frolic and entertainment factors comprising modern play equipments to groom them mentally as well as physically.</h1>
-              </div>
+                <ul style={{listStyleType: 'disc'}} className='text-blue-800 mt-2 ml-5'>
+                  <li>Exclusive play area tailored for children.</li>
+                  <li>Designed for fun, frolic, and entertainment</li>
+                  <li>Modern play equipment for engaging activities</li>
+                  <li>Soft flooring for safety during play</li>
+                  <li>Varied play structures</li>
+                </ul>  
+                </div>
             </Link>
 
           </div>
