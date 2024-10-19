@@ -21,9 +21,9 @@ const Villas = () => {
       </h1>
       
       <div className="flex mt-8 justify-center gap-5 flex-wrap">
-        <VillaButton to="/Exotic" label="Exotic" />
-        <VillaButton to="/Meridian" label="Meridian" />
-        <VillaButton to="/Grandeur" label="Grandeur" />
+        <VillaButton to="/Plans/Villas/Exotic" label="Exotic" />
+        <VillaButton to="/Plans/Villas/Meridian" label="Meridian" />
+        <VillaButton to="/Plans/Villas/Grandeur" label="Grandeur" />
       </div>
     </div>
   );

@@ -7,10 +7,10 @@ function Flat() {
       <h1 className='md:w-[70vw] rounded-tr-3xl rounded-bl-3xl rounded-br-3xl mt-10 text-xl bg-slate-200 p-5 text-center mx-auto '>Discover our stunning collection of flats, featuring <b>Great, Crown, Gorgeous</b>, and <b> Zenith plans </b> that redefine the art of modern living. Each residence is meticulously designed to provide an unparalleled living experience, where every detail has been carefully considered to create a haven of comfort, style, and sophistication.</h1>
       
       <div className="flex mt-8 justify-center gap-5 flex-wrap">
-        <Link to = "/Great"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Great</div></Link>
-        <Link to = "/Crown"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Crown</div></Link>
-        <Link to = "/Gorgeous"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Gorgeous</div></Link>
-        <Link  to = "/Zenith"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Zenith</div></Link>
+        <Link to = "/Plans/Flats/Great"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Great</div></Link>
+        <Link to = "/Plans/Flats/Crown"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Crown</div></Link>
+        <Link to = "/Plans/Flats/Gorgeous"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Gorgeous</div></Link>
+        <Link  to = "/Plans/Flats/Zenith"><div className="px-5 py-3 w-[180px] text-center font-black bg-slate-400 text-white text-xl transition-all hover:scale-105 hover:bg-slate-700 hover:rounded-br-3xl">Zenith</div></Link>
       </div>
     </div>
   )

@@ -30,12 +30,12 @@ function Plans() {
 
         <div className="flex flex-wrap gap-7 justify-center">
           <PlanCard 
-            to="/Flats" 
+            to="/Plans/Flats" 
             title="Flats" 
             description="Our Flat plans are designed to provide a comfortable and convenient living experience. These spacious apartments are perfect for individuals, couples, and small families who value ease of maintenance."
           />
           <PlanCard 
-            to="/Villas" 
+            to="/Plans/Villas" 
             title="Individual Villas" 
             description="Our Individual plans are designed to provide a unique and personalized living experience. These standalone homes offer the ultimate in privacy, perfect for families, couples, or individuals who value independence and space."
           />

@@ -55,15 +55,15 @@ function App() {
       <Route path='/Community' element={<Community/>}/>
       <Route path='/Water' element={<Water/>}/>
       <Route path='/Power' element={<Power/>}/>
-      <Route path='/Flats' element={<Flat/>}/>
-      <Route path='/Great' element={<Great/>}/>
-      <Route path='/Crown' element={<Crown/>}/>
-      <Route path='/Gorgeous' element={<Gorgeous/>}/>
-      <Route path='/Zenith' element={<Zenith/>}/>
-      <Route path='/Villas' element={<Villas/>}/>
-      <Route path='/Exotic' element={<Exotic/>}/>
-      <Route path='/Meridian' element={<Meridian/>}/>
-      <Route path='/Grandeur' element={<Grandeur/>}/>
+      <Route path='Plans/Flats' element={<Flat/>}/>
+      <Route path='/Plans/Flats/Great' element={<Great/>}/>
+      <Route path='/Plans/Flats/Crown' element={<Crown/>}/>
+      <Route path='/Plans/Flats/Gorgeous' element={<Gorgeous/>}/>
+      <Route path='/Plans/Flats/Zenith' element={<Zenith/>}/>
+      <Route path='/Plans/Villas' element={<Villas/>}/>
+      <Route path='/Plans/Villas/Exotic' element={<Exotic/>}/>
+      <Route path='/Plans/Villas/Meridian' element={<Meridian/>}/>
+      <Route path='/Plans/Villas/Grandeur' element={<Grandeur/>}/>
       <Route path='/Cricket' element={<Cricket/>}/>
       <Route path='/KidsPlayArea' element={<KidsPlayArea/>}/>
 
