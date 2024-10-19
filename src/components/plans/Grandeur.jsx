@@ -5,10 +5,29 @@ import grandeur2 from '../../assets/grandeur2.png';
 import grandeur3 from '../../assets/grandeur3.png';
 import grandeur4 from '../../assets/grandeur4.png';
 import grandeur5 from '../../assets/grandeur5.png';
+import { Link } from 'react-router-dom';
 
 const Grandeur = () => {
   return (
     <div className='p-5'>
+    <Link to="/Plans/Villas" className="flex justify-end mr-2 mb-2">
+            <div className="flex gap-2 px-4 py-1 mt-4 bg-black text-white items-center rounded-2xl">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    className="bi bi-arrow-bar-left"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fillRule="evenodd"
+                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"
+                    />
+                </svg>
+                <h1 className="mr-1">Back</h1>
+            </div>
+        </Link>
       <h1 className='text-xl md:text-3xl font-black'>Independent Bungalows</h1>
       <h1 className='md:text-xl text-lg mt-3'>
         The <b>majestic, well-designed, spacious</b> and <b>comfortable</b> independent bungalows decipher a princely lifestyle. 

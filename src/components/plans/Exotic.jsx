@@ -5,6 +5,7 @@ import exotic2 from '../../assets/exotic2.png';
 import exotic3 from '../../assets/exotic3.png';
 import exotic4 from '../../assets/exotic4.png';
 import exotic5 from '../../assets/exotic5.png';
+import { Link } from 'react-router-dom';
 
 const UnitDetails = ({ title, plotArea, unitArea, terraceArea }) => (
   <div className="bg-white shadow-md rounded-lg p-5 mb-5">
@@ -22,6 +23,24 @@ const ImageSection = ({ imgSrc, altText }) => (
 const Exotic = () => {
   return (
     <div className='p-5'>
+      <Link to="/Plans/Villas" className="flex justify-end mr-2 mb-2">
+            <div className="flex gap-2 px-4 py-1 mt-4 bg-black text-white items-center rounded-2xl">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    className="bi bi-arrow-bar-left"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fillRule="evenodd"
+                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"
+                    />
+                </svg>
+                <h1 className="mr-1">Back</h1>
+            </div>
+        </Link>
       <h1 className='text-xl md:text-3xl font-black'>Independent Row Houses</h1>
       <h1 className='md:text-xl text-lg mt-3'>
         The Independent row houses reflect the traditional ethos of living independently while promoting community living. These expandable houses are designed for modern families, providing a plot area of <b>171.37 sq.m</b> (1844 Sq.ft.) with a <b>unit area of 172.65 sq.m</b> (1857.71 Sq.ft.). Intelligent design and ultra-modern specifications enhance the beauty of the row houses, creating ample space for families, with seamless blends of facilities, terrace, lawn, and open spaces for residents.

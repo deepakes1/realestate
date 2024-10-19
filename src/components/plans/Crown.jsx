@@ -8,6 +8,7 @@ import crownsec1 from "../../assets/crownsec1.png";
 import crownsec2png from "../../assets/crownsec2png.png";
 import crownpent1 from "../../assets/crownpent1.png";
 import crownpent2 from "../../assets/crownpent2png.png";
+import { Link } from 'react-router-dom';
 
 const unitPlans = [
   {
@@ -61,6 +62,25 @@ function Crown() {
   return (
     <div>
       <div>
+       <Link to="/Plans/Flats" className="flex justify-end mr-2 mb-2">
+            <div className="flex gap-2 px-4 py-1 mt-4 bg-black text-white items-center rounded-2xl">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    className="bi bi-arrow-bar-left"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        fillRule="evenodd"
+                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"
+                    />
+                </svg>
+                <h1 className="mr-1">Back</h1>
+            </div>
+        </Link>
+
         <h1 className="font-semibold text-center lg:text-3xl text-xl mb-4 mt-6">2. Crown</h1>
         <p className='text-xl text-center mb-4 font-semibold'>Type B (Stilt plus 9 Floors with 3 lifts) 2 Bedroom + Terrace, 2 Bedroom, Penthouse Units</p>
         <div className="text-center text-xl mb-5">
