@@ -26,50 +26,10 @@ function Gorgeous() {
            
 
             {/* table */}
-            <table className="hidden md:block shadow border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">TYPICAL FLOOR PLAN (2 BR+ STUDY), 1st to 8th Flr.</td>
-                <td className="border-2 border-black p-2">1240.37</td>
-                <td className="border-2 border-black p-2">110.11</td>
-                <td className="border-2 border-black p-2">1,4</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">2</td>
-                <td className="border-2 border-black p-2">TYPICAL FLOOR PLAN (2 BR), 1st to 8th Flr.</td>
-                <td className="border-2 border-black p-2">005.02</td>
-                <td className="border-2 border-black p-2">84.11</td>
-                <td className="border-2 border-black p-2">2</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">3</td>
-                <td className="border-2 border-black p-2">TYPICAL FLOOR PLAN (2 BR+ STUDY), 1st to 8th Flr.</td>
-                <td className="border-2 border-black p-2">1236.20</td>
-                <td className="border-2 border-black p-2">114.80</td>
-                <td className="border-2 border-black p-2">3</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">4</td>
-                <td className="border-2 border-black p-2">TYPICAL FLOOR PLAN (3 BVR), 1st to 8th Flr.</td>
-                <td className="border-2 border-black p-2">114.80</td>
-                <td className="border-2 border-black p-2">135.95</td>
-                <td className="border-2 border-black p-2">5,6</td>
-                </tr>
-            </tbody>
-            </table>
+            
 
             {/* tablesmall devices */}
-            <div class="md:hidden container mx-auto mt-5 p-5">
+            <div class="md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">
                     <h3 class="text-lg font-semibold">S.No: 1</h3>
                     <p class="mt-2"><strong>Flat/Unit Type:</strong> Typical Floor Plan (2 BR + Study), 1st to 8th Floor</p>
@@ -131,51 +91,9 @@ function Gorgeous() {
 
 
 
-            {/* table2  */}
-            <table className="hidden md:block border-2 border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">PENTHOUSE FLOOR PLAN (3 B/R + TERRACE) 9th Flr.</td>
-                <td className="border-2 border-black p-2">1811.33</td>
-                <td className="border-2 border-black p-2">168.34</td>
-                <td className="border-2 border-black p-2">894.30</td>
-                <td className="border-2 border-black p-2">83.11</td>
-                <td className="border-2 border-black p-2">1,4</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">2</td>
-                <td className="border-2 border-black p-2">PENTHOUSE FLOOR PLAN (2 B/R).</td>
-                <td className="border-2 border-black p-2">905.02</td>
-                <td className="border-2 border-black p-2">84.11</td>
-                <td className="border-2 border-black p-2">-</td>
-                <td className="border-2 border-black p-2">-</td>
-                <td className="border-2 border-black p-2">2</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">3</td>
-                <td className="border-2 border-black p-2">PENTHOUSE FLOOR PLAN (2 B/R+ STUDY)</td>
-                <td className="border-2 border-black p-2">1236.20</td>
-                <td className="border-2 border-black p-2">114.89</td>
-                <td className="border-2 border-black p-2">-</td>
-                <td className="border-2 border-black p-2">-</td>
-                <td className="border-2 border-black p-2">3</td>
-                </tr>
-            </tbody>
-            </table>
+            
 
-            <div class=" md:hidden container mx-auto mt-5 p-5">
+            <div class=" md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <h2 class="text-center text-xl font-bold mb-4">Flat/Unit Types and Areas</h2>
 
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">

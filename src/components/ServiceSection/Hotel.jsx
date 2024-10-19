@@ -1,31 +1,66 @@
-import React from 'react'
+import React from 'react';
 
+const Hotel = () => {
+  const features = [
+    {
+      title: "Centrally air-conditioned building",
+      description: "with impressive modern elevation."
+    },
+    {
+      title: "100% round-the-clock power supply",
+      description: "complete back-up ensured. Impressive reception, lobby, and lounge."
+    },
+    {
+      title: "A maid's room, linen store, pantry",
+      description: "and a spacious guest elevator lobby on every floor."
+    },
+    {
+      title: "Pillar-less banquet hall",
+      description: "with a capacity of more than 800 people for cultural functions and gatherings."
+    },
+    {
+      title: "Hyper Market (Super Market)",
+      description: "ensuring availability of all items such as Grocery & Confectionary Items, Household Goods, Clothing & Footwear, Utensils, Furnishing Items."
+    },
+    {
+      title: "Kids Play Zone",
+      description: "with entertainment for kids."
+    },
+    {
+      title: "Fully equipped Computer rooms",
+      description: ""
+    },
+    {
+      title: "Multi-cuisine food courts",
+      description: "and specialty restaurants."
+    },
+    {
+      title: "Professionally managed expansive parking",
+      description: ""
+    },
+    {
+      title: "100% round-the-clock power supply",
+      description: "with complete back-up ensured."
+    }
+  ];
 
-function Hotel() {
   return (
-    <div>
-      <div className='p-5'>
-        <div className="flex gap-2 items-center">
-            <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Hotel</h1>
-        </div>
-        <div className=" text-md lg:text-xl">
-            <p className='mt-2'>A grand & exclusive hotel having 100-300 rooms built on the latest architectural concepts consisting of premium features & facilities. It shall be an integral part of every Sahara City Homes Township. It has been located in such a manner that the non-residents who are using these facilities do not enter the residential areas thus ensuring complete privacy and solitude to the residents.</p>
-        </div>        
-        <ul style={{ listStyleType: 'disc' }} className='p-5 text-md lg:text-xl'>
-            <li className=''><span className='font-semibold '>Centrally air-conditioned building </span>with impressive modern elevation.</li>
-            <li className='mt-3'>100% round-the-clock power supply with complete back-up ensured<span className='font-semibold'>Impressive reception, lobby and lounge</span></li>
-            <li className='mt-3'><span className='font-semibold'>A maid's room, linen store, pantry and a spacious guest elevator lobby on every floor.</span></li>
-            <li className='mt-3'>Pillar-less banquet hall with a capacity of comprising <b>more than 800 people</b> for cultural functions & gatherings.</li>
-            <li className='mt-3'> Hyper Market (Super Market) ensuring availability of all the Items such as <span className='font-semibold'>Grocery & Confectionary Items, Household Goods, Clothing & Footwear, Utensils, Furnishing Items</span></li>
-            <li className='mt-3'><span className='font-semibold'>Kids Play Zone with entertainment for kids</span></li>
-            <li className='mt-3'>Fully equipped Computer rooms</li>
-            <li className='mt-3'><span className='font-semibold'>Multi-cuisine </span>food courts & speciality restaurants.</li>
-            <li className='mt-3'><span className='font-semibold'>Professionally managed expansive parking.</span></li>
-            <li className='mt-3'><span className='font-semibold'>100% round-the-clock power supply with complete back-up ensured.</span></li>
-        </ul>
+    <div className='p-5'>
+      <div className="flex gap-2 items-center">
+        <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Hotel</h1>
       </div>
+      <div className="text-md lg:text-xl mt-2">
+        <p>A grand & exclusive hotel having 100-300 rooms built on the latest architectural concepts consisting of premium features & facilities. It shall be an integral part of every Sahara City Homes Township. Located to ensure that non-residents using these facilities do not enter residential areas, thus ensuring complete privacy and solitude for the residents.</p>
+      </div>
+      <ul className='p-5 text-md lg:text-xl list-disc'>
+        {features.map((feature, index) => (
+          <li key={index} className='mt-3'>
+            <span className='font-semibold'>{feature.title}</span> {feature.description}
+          </li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Hotel
+export default Hotel;

@@ -7,7 +7,7 @@ import Amenities from "./pages/Amenities";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import './App.css';
-import Rennovation from './pages/Rennovation';
+import Remodelling from './pages/Remodelling';
 import DownloadTab from "./pages/DownloadTab";
 import Security from './components/ServiceSection/Security';
 import Hospital from './components/ServiceSection/Hospital';
@@ -43,7 +43,7 @@ function App() {
       <Route path='/Amenities' element={<Amenities/>}/>
       <Route path='/Plans' element= {<Plans/>} />
       <Route path='/Contact' element={<Contact/>}/>
-      <Route path='/Rennovation' element={<Rennovation/>}/>
+      <Route path='/Remodelling' element={<Remodelling/>}/>
       <Route path='/DownloadTab' element={<DownloadTab/>}/>
       <Route path='/Security' element={<Security/>}/>
       <Route path='/Hospital' element={<Hospital/>}/>

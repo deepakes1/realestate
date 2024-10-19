@@ -14,7 +14,7 @@ const services = [
     title: 'Renovation & Remodeling',
     description: 'Revitalize your home with our customized renovation and remodeling solutions, bringing your vision to life.',
     imgSrc: homeimg2,
-    link: '/Renovation',
+    link: '/Remodelling',
   },
 ];
 

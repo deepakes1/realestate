@@ -1,35 +1,63 @@
-import React from 'react'
+import React from 'react';
 
-function Community() {
+const Community = () => {
+  const features = [
+    {
+      description: "Two well-equipped clubs and a community centre within the township having facilities for indoor and outdoor games, swimming pool, and a well-equipped fitness centre for aerobics, gymnasium, sauna, and jacuzzi."
+    },
+    {
+      description: "These will be built in addition to the",
+      highlight: "Hotel & Club building",
+      additionalText: "located outside the main gate and will be exclusively used by the residents of the township."
+    },
+    {
+      description: "Indoor sports facilities for recreation like",
+      highlight: "table tennis, badminton, pool/snooker, squash"
+    },
+    {
+      description: "Recreational facilities include",
+      highlight: "TV room, card/chess/carom room"
+    },
+    { description: "Audio, Video & Media library." },
+    {
+      description: "Expandable multi-purpose stage and hall with a seating capacity of",
+      highlight: "700 people."
+    },
+    {
+      description: "Spacious kitchen and pantry."
+    },
+    {
+      description: "Ample parking area."
+    },
+    {
+      description: "Nature care centre with facilities for",
+      highlight: "acupressure, reiki, ayurveda, meditation, and old age care."
+    }
+  ];
+
   return (
-    <div>
-      <div className='p-5'>
-        <div className="flex gap-2 items-center">
-            <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Community Center</h1>
-        </div>
-        <div className=" text-md lg:text-xl">
-            <p className='mt-2'>Two well-equipped clubs and a community centre within the township having the facilities of indoor and outdoor games, swimming pool and a well equipped fitness centre for aerobics, gymnasium, sauna and jacuzzi.</p>
-        </div>        
-        <ul style={{ listStyleType: 'disc' }} className='p-5 text-md lg:text-xl'>
-            <li className=''>These will be built in addition to the <span className='font-semibold '>Hotel & Club building</span>  located outside the main gate and will be exclusively used by the residents of the township.</li>
-            <li className='mt-3'>Indoor sports facilities for recreation like <span className='font-semibold'>table tennis, badminton, pool/snooker, squash</span></li>
-            <li className='mt-3'><span className='font-semibold'>Recreational facilities include TV room,card /chess/ carom room</span></li>
-            <li className='mt-3'>Audio, Video & Media library.</li>
-            <li className='mt-3'> Expandable multi-purpose stage and Hall with a seating capacity of <span className='font-semibold'>700 people.</span></li>
-            <li className='mt-3'><span className='font-semibold'>Spacious kitchen and pantry</span></li>
-            <li className='mt-3'>Ample parking area</li>
-            <li className='mt-3'>Nature care centre with the facilities of <span className='font-semibold'>acupressure, reiki, ayurveda, meditation and old age care</span>.</li>
-        </ul>
-        
-        <div className="flex gap-2 items-center">
-          <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Yoga</h1>
+    <div className='p-5'>
+      <h1 className='text-2xl lg:text-3xl font-semibold font-serif'>Community Center</h1>
+      <p className='mt-2 text-md lg:text-xl'>
+        {features[0].description}
+      </p>
+      
+      <ul className='p-5 text-md lg:text-xl' style={{ listStyleType: 'disc' }}>
+        {features.slice(1).map((feature, index) => (
+          <li key={index} className='mt-3'>
+            {feature.description}
+            {feature.highlight && <span className='font-semibold'> {feature.highlight}</span>}
+            {feature.additionalText && ` ${feature.additionalText}`}
+          </li>
+        ))}
+      </ul>
 
-        </div>
-        <p className='text-md lg:text-xl mt-2'>World renowned Yoga guru Mr. Bikram Chaudhary will set-up yoga centres in all <b> 217 townships</b>  to offer the best advice and training on yoga for the first time in India. He has over 2000 institutions around the globe which are even acknowledged by NASA (National Aeronautics and Space Administration)</p>
-        
+      <h1 className='text-2xl lg:text-3xl font-semibold font-serif mt-5'>Yoga</h1>
+      <p className='text-md lg:text-xl mt-2'>
+        World renowned Yoga guru Mr. Bikram Chaudhary will set up yoga centres in all <b>217 townships</b> to offer the best advice and training on yoga for the first time in India. He has over 2000 institutions around the globe, acknowledged by NASA (National Aeronautics and Space Administration).
+      </p>
     </div>
-    </div>
-  )
+  );
 }
 
 export default Community;

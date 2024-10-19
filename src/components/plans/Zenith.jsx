@@ -30,35 +30,10 @@ function Zenith() {
            
 
             {/* table */}
-            <table className="hidden md:block shadow border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">FIRST & SECOND FLOOR PLAN (4 B/R DUPLEX).</td>
-                <td className="border-2 border-black p-2">2598.12</td>
-                <td className="border-2 border-black p-2">241.46</td>
-                <td className="border-2 border-black p-2">1504.08</td>
-                <td className="border-2 border-black p-2">139.78</td>
-                <td className="border-2 border-black p-2">1,2,4,5</td>
-                </tr>
-                
-                
-            </tbody>
-            </table>
+            
 
-            {/* tablesmall devices */}
-            <div class="md:hidden container mx-auto mt-5 p-5">
+            
+            <div class="md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">
                     <h3 class="text-lg font-semibold">S.No: 1</h3>
                     <p class="mt-2"><strong>Flat/Unit Type:</strong> FIRST & SECOND FLOOR PLAN (4 B/R DUPLEX)</p>
@@ -87,32 +62,9 @@ function Zenith() {
 
             
             {/* table2  */}
-            <table className="hidden md:block border-2 border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">FIRST & SECOND FLOOR PLAN (4 B/R DUPLEX)</td>
-                <td className="border-2 border-black p-2">2296.91</td>
-                <td className="border-2 border-black p-2">213.39</td>
-                <td className="border-2 border-black p-2">674.13</td>
-                <td className="border-2 border-black p-2">62.65</td>
-                <td className="border-2 border-black p-2">3,6</td>
-                </tr>
-            </tbody>
-            </table>
+            
 
-            <div class="md:hidden container mx-auto mt-5 p-5">
+            <div class="md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">
                     <h3 class="text-lg font-semibold">S.No: 1</h3>
                     <p class="mt-2"><strong>Flat/Unit Type:</strong> FIRST & SECOND FLOOR PLAN (4 B/R DUPLEX)</p>
@@ -142,41 +94,9 @@ function Zenith() {
             </div>
 
 
-            <table className="hidden md:block border-2 border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">THIRD & FOURTH FLOOR PLAN (4 B/R DUPLEX)</td>
-                <td className="border-2 border-black p-2">2332.91</td>
-                <td className="border-2 border-black p-2">216.81</td>
-                <td className="border-2 border-black p-2">408.75</td>
-                <td className="border-2 border-black p-2">37.99</td>
-                <td className="border-2 border-black p-2">1,2,4,5</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">2</td>
-                <td className="border-2 border-black p-2">THIRD & FOURTH FLOOR PLAN (4 B/R DUPLEX)</td>
-                <td className="border-2 border-black p-2">2387.05</td>
-                <td className="border-2 border-black p-2">221.84</td>
-                <td className="border-2 border-black p-2">306.00</td>
-                <td className="border-2 border-black p-2">28.44</td>
-                <td className="border-2 border-black p-2">3,6</td>
-                </tr>
-            </tbody>
-            </table>
+            
 
-            <div class="md:hidden container mx-auto mt-5 p-5">
+            <div class="md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">
                     <h3 class="text-lg font-semibold">S.No: 1</h3>
                     <p class="mt-2"><strong>Flat/Unit Type:</strong> THIRD & FOURTH FLOOR PLAN (4 B/R DUPLEX)</p>
@@ -220,43 +140,8 @@ function Zenith() {
             </div>
 
 
-            <table className="hidden md:block shadow border-collapse text-center mt-5 p-5 md:w-[70vw] mx-auto">
-            <thead>
-                <tr>
-                <th className="border-2 border-black p-2">S.No.</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT TYPE</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">UNIT AREA (sq.m)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA (sq.ft)</th>
-                <th className="border-2 border-black p-2">TERRACE AREA(sq.m)</th>
-                <th className="border-2 border-black p-2">FLAT/UNIT NO. (ON EACH FLOOR)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td className="border-2 border-black p-2">1</td>
-                <td className="border-2 border-black p-2">FIFTH & SIXTH FLOOR PLAN (3 B/R DUPLEX)</td>
-                <td className="border-2 border-black p-2">1963.89</td>
-                <td className="border-2 border-black p-2">182.52</td>
-                <td className="border-2 border-black p-2">197.50</td>
-                <td className="border-2 border-black p-2">18.35</td>
-                <td className="border-2 border-black p-2">1,2,4,5</td>
-                </tr>
-                <tr>
-                <td className="border-2 border-black p-2">2</td>
-                <td className="border-2 border-black p-2">FIFTH & SIXTH FLOOR PLAN (3 B/R DUPLEX)</td>
-                <td className="border-2 border-black p-2">1976.43</td>
-                <td className="border-2 border-black p-2">183.68</td>
-                <td className="border-2 border-black p-2">191.21</td>
-                <td className="border-2 border-black p-2">17.77</td>
-                <td className="border-2 border-black p-2">3,6</td>
-                </tr>
-                
-                
-            </tbody>
-            </table>
             
-            <div class="md:hidden container mx-auto mt-5 p-5">
+            <div class="md:text-center lg:w-[40vw] container mx-auto mt-5 p-5">
                 <div class="bg-white shadow-md rounded-lg p-5 mb-5">
                     <h3 class="text-lg font-semibold">S.No: 1</h3>
                     <p class="mt-2"><strong>Flat/Unit Type:</strong> FIFTH & SIXTH FLOOR PLAN (3 B/R DUPLEX)</p>
