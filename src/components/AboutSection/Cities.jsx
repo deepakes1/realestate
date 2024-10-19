@@ -3,7 +3,7 @@ import React from 'react';
 const StateData = () => {
   const states = [
     { name: 'Andhra Pradesh', cities: 10 },
-    { name : 'Kerala', cities: 1 },
+    { name: 'Kerala', cities: 1 },
     { name: 'Assam', cities: 4 },
     { name: 'Madhya Pradesh', cities: 16 },
     { name: 'Bihar', cities: 19 },
@@ -28,20 +28,20 @@ const StateData = () => {
   ];
 
   return (
-    <div className='border border-t-2 p-5'>
-      <h1 className='text-2xl italic font-semibold text-center mb-6'>State Data</h1>
-      <table style={{ border: '1px solid black' }} className="w-[90vw] md:w-[70vw] mx-auto text-center">
-        <thead style={{ border: '1px solid black' }}>
-          <tr className="text-lg" >
-            <th >State</th>
-            <th>No. of Cities</th>
+    <div className="border border-t-2 p-5">
+      <h1 className="text-2xl italic font-semibold text-center mb-6">State Data</h1>
+      <table className="w-[90vw] md:w-[70vw] mx-auto text-center border-collapse border border-gray-300">
+        <thead>
+          <tr className="text-lg">
+            <th className="border border-gray-300 p-2">State</th>
+            <th className="border border-gray-300 p-2">No. of Cities</th>
           </tr>
         </thead>
-        <tbody style={{ border: '1px solid black' }}>
+        <tbody>
           {states.map((state, index) => (
-            <tr style={{ border: '1px solid black' }} key={index}>
-              <td className='p-2'>{state.name}</td>
-              <td>{state.cities}</td>
+            <tr key={index}>
+              <td className="border border-gray-300 p-2">{state.name}</td>
+              <td className="border border-gray-300 p-2">{state.cities}</td>
             </tr>
           ))}
         </tbody>
