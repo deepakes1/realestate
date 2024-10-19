@@ -28,7 +28,7 @@ function Navbar() {
         <div className={`mt-4 md:mt-0 text-center md:flex gap-3 ${showNav ? 'block' : 'hidden'} md:block`}>
           <div className='mb-1 transition-all hover:underline'><Link to="/">Home</Link></div>
           <div className='mb-1'><Link to="/About">About</Link></div>
-          <div className='mb-1'><Link to="/Services">Amenities</Link></div>
+          <div className='mb-1'><Link to="/Amenities">Amenities</Link></div>
           <div className='mb-1'><Link to="/Plans">Plans</Link></div>
           <div className='mb-1'><Link to="/DownloadTab">Download</Link></div>
           <div className='mb-1'><Link to="/Contact">Contact Us</Link></div>

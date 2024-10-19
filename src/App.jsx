@@ -3,8 +3,7 @@ import Navbar from './components/Navbar'
 import { Routes,Route } from 'react-router-dom'
 import Home from "../src/pages/Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
-import Layout from "./pages/Layout";
+import Amenities from "./pages/Amenities";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import './App.css';
@@ -41,8 +40,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
-      <Route path='/Services' element={<Services/>}/>
-      <Route path='/Layout' element={<Layout/>}/>
+      <Route path='/Amenities' element={<Amenities/>}/>
       <Route path='/Plans' element= {<Plans/>} />
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Rennovation' element={<Rennovation/>}/>
